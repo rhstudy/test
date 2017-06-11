@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fffbf0;
+}
+
+@font-face {
+  font-family: STXingkai;
+  src: url("font/华文行楷.ttf");
+}
+
+#all {
+	width: 768px;
+	height: 276px;
+	margin: 70px auto;
+	border: 1px solid #dadada;
+}
+
+#header {
+	width: 100%;
+	height: 23px;
+	padding-top: 6px;
+	padding-left: 24px;
+}
+
+#header ul {
+	width: 240px;
+	height: 100%;
+	list-style: none;
+	float: left;
+}
+
+#header ul li {
+	width: 60px;
+	height: 100%;
+	float: left;
+}
+
+#header ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-family: STXingkai;
+	font-size: 16px;
+	color: #000000;
+}
+
+#header ul li a:hover {
+	color: red;
+}
+
+#header a {
+	display: block;
+	width: 56px;
+	height: 100%;
+	float: right;
+	text-decoration: none;
+	font-family: STXingkai;
+	font-size: 16px;
+	color: red;
+}
+
+#container {
+	width: 100%;
+	height: 240px;
+	border: 0px solid #dadada;
+}
+
+.pic {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.pic1 {
+	display: block;
+}
+
+.pic dl {
+	width: 22%;
+	height: 100%;
+	float: left;
+}
+
+.pic dl dt {
+	width: 100%;
+	position: relative;
+	top: 6px;
+	left: 26px;
+}
+
+.pic dl dt img {
+	width: 170px;
+	height: 230px;
+}
+
+.pic dl dd {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.3);
+	left: 26px;
+	top: -26px;
+	line-height: 30px;
+	text-align: center;
+	font-family: STXingkai;
+	color: #ffffff;
+}
+
+.content_img {
+	width: 70%;
+	height: 100%;
+	float: right;
+	margin-right: 3.5%;
+	margin-top: 5px;
+	border: 0px solid #DADADA;
+}
+
+.content_img tr {
+	width: 100%;
+	height: 50%;
+}
+
+.content_img tr td {
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+.content_img tr td img {
+	width: 150px;
+	height: 102px;
+}
+
+.content_img tr td p {
+	position: relative;
+	width: 150px;
+	height: 20px;
+	background: rgba(0, 0, 0, 0.3);
+	top: -23px;
+	line-height: 20px;
+	text-align: center;
+	font-family: STXingkai;
+	color: #ffffff;
+}

@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #FEFAEC;
+}
+
+#all {
+	width: 360px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 60px;
+	border: 1px solid #DADADA;
+	text-align: center;
+}
+
+#all h3 {
+	font-family: "微软雅黑";
+	font-size: 23px;
+	margin-top: 12px;
+}
+
+#all input {
+	width: 200px;
+	height: 20px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+#all button {
+	width: 90px;
+	height: 26px;
+}
+
+#all div {
+	width: 300px;
+	height: 30px;
+	border: 1px solid #DADADA;
+	margin-left: 30px;
+	margin-top: 26px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+#all1 {
+	width: 360px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid #DADADA;
+	text-align: center;
+}
+
+#all1 h3 {
+	font-family: "微软雅黑";
+	font-size: 23px;
+	margin-top: 12px;
+}
+
+#all1 input {
+	width: 200px;
+	height: 20px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+#all1 button {
+	width: 90px;
+	height: 26px;
+}
+
+#all1 div {
+	width: 300px;
+	height: 30px;
+	border: 1px solid #DADADA;
+	margin-left: 30px;
+	margin-top: 26px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}

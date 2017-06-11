@@ -1,0 +1,16 @@
+1、CSS3字体设置:@font-face 规则
+@font-face {
+	font-family: indexTitle;
+	src: url(hyi4gjm.ttf);
+}
+.container a {
+	display: block;
+	width: 100%;
+	height: 150px;
+	font-family: indexTitle;
+	font-size: 4.3em;
+	text-align: center;
+	line-height: 150px;
+	text-decoration: none;
+	color: #FFFFFF;
+}

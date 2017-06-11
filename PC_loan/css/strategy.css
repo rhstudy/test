@@ -1,0 +1,878 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*整体设置*/
+
+#container {
+	width: 991px;
+	margin: 0 auto;
+}
+
+
+/*顶部导航条设置*/
+
+#headerNav {
+	width: 1000px;
+	height: 42px;
+	position: fixed;
+	top: 0;
+	z-index: 1200;
+	background-color: #f9f9f9;
+}
+
+#headerNav ul {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+#headerNav ul li {
+	width: 62px;
+	height: 100%;
+	float: left;
+}
+
+#headerNav ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 42px;
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #999999;
+}
+
+#headerNav ul li a:hover {
+	color: red;
+}
+
+#headerNav p {
+	width: 25%;
+	height: 100%;
+	float: left;
+	line-height: 42px;
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #999999;
+}
+
+
+/*中间标题*/
+
+#header {
+	width: 100%;
+	height: 123px;
+	margin-top: 20px;
+}
+
+#header img {
+	width: 68px;
+	height: 43px;
+	float: left;
+	margin-left: 166px;
+	margin-top: 27px;
+}
+
+#header h3 {
+	width: 50px;
+	height: 43px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: normal;
+	color: #999999;
+	text-align: center;
+	line-height: 43px;
+	float: left;
+	margin-left: 22px;
+	margin-top: 27px;
+}
+
+
+/*搜索框设置*/
+
+#search {
+	width: 525px;
+	height: 40px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 32px;
+}
+
+#search input {
+	width: 426px;
+	height: 39px;
+	float: left;
+	border: 1px solid #E9E9E9;
+	border-radius: 3px 0px 0px 3px;
+	border-right: none;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	line-height: 40px;
+	padding-left: 2px;
+}
+
+#search img {
+	width: 74px;
+	height: 40px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+#header ul {
+	clear: both;
+	width: 380px;
+	height: 22px;
+	position: relative;
+	left: 315px;
+	top: 18px;
+}
+
+#header ul li {
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #999999;
+	float: left;
+	margin-left: 6px;
+}
+
+
+/*间隔线*/
+
+#hrLine {
+	width: 100%;
+	height: 2px;
+	background-color: #0D9CE2;
+}
+
+
+/*内部导航条*/
+
+#nav {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #DADADA;
+	border-style: none none solid solid;
+}
+
+#nav ul li {
+	width: 109px;
+	height: 40px;
+	float: left;
+	border: 1px solid #DADADA;
+	border-style: none solid none none;
+}
+
+#nav ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #000000;
+}
+
+#nav ul li .activeA {
+	background-color: #0D9CE2;
+	color: #FFFFFF;
+}
+
+
+/*轮播加登录*/
+
+
+/*轮播*/
+
+#menuLogin {
+	width: 100%;
+	height: 343px;
+	position: relative;
+	top: 23px;
+}
+
+#bar {
+	float: left;
+}
+
+#bar ul {
+	float: left;
+}
+
+#bar ul li {
+	display: none;
+}
+
+#bar ul li img {
+	width: 465px;
+	height: 320px;
+}
+
+#bar ul .on {
+	display: block;
+}
+
+#bar ol {
+	float: left;
+}
+
+#bar ol li {
+	width: 232px;
+	height: 63px;
+	border: 1px solid #333333;
+	border-style: none none solid none;
+	background-color: #262626;
+}
+
+#bar ol li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 63px;
+}
+
+
+/*登录*/
+
+#login {
+	width: 267px;
+	float: left;
+	margin-left: 25px;
+}
+
+.title {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: normal;
+	border: 4px solid #3CBCF1;
+	border-style: none none none solid;
+	padding-left: 8px;
+	margin-top: 12px;
+}
+
+#login hr {
+	width: 100%;
+	border: 1px solid lightgray;
+	position: relative;
+	margin-top: 10px;
+}
+
+#loginForm {
+	width: 100%;
+	margin-top: 23px;
+}
+
+#loginForm div {
+	width: 100%;
+	height: 40px;
+	margin-top: 13px;
+}
+
+#loginForm div label {
+	font-family: "微软雅黑";
+	font-size: 10px;
+	padding-left: 8px;
+}
+
+#loginForm input {
+	width: 180px;
+	height: 29px;
+}
+
+#loginForm div #loginBtn {
+	width: 208px;
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+	background-color: #0D9CE2;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+#getIt {
+	width: 78px;
+	height: 29px;
+	position: absolute;
+	margin-left: -88px;
+	margin-top: 1px;
+	border: 1px solid #DADADA;
+	border: 1px solid #DADADA;
+	border-style: none none none solid;
+	text-align: center;
+	line-height: 29px;
+	cursor: pointer;
+}
+
+
+/*热门*/
+
+#content0 {
+	width: 100%;
+	height: 285px;
+	position: relative;
+}
+
+.content_left {
+	width: 70.25%;
+	height: 100%;
+	float: left;
+}
+
+.img1 {
+	position: absolute;
+	margin-left: 656px;
+	margin-top: -21px;
+	cursor: pointer;
+}
+
+.img2 {
+	position: absolute;
+	margin-left: 676px;
+	margin-top: -21px;
+	cursor: pointer;
+}
+
+.content_left_title {
+	border: 1px solid #D3D3D3;
+	border-style: none none solid none;
+	padding-bottom: 6px;
+}
+
+.content_left_title a {
+	font-family: "微软雅黑";
+	font-size: 10px;
+	color: #000000;
+	position: absolute;
+	margin-left: 206px;
+	margin-top: -18px;
+}
+
+#content0 .content_left ul li {
+	width: 220px;
+	height: 220px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 20px;
+}
+
+#content0 .content_left ul li a {
+	font-family: "微软雅黑";
+	font-size: 10px;
+	color: #000000;
+}
+
+#content0 .content_left ul li a font {
+	color: #00a4e7;
+}
+
+.content_right {
+	width: 27.2%;
+	height: 100%;
+	float: right;
+}
+
+.cal {
+	width: 250px;
+	height: 250px;
+	border: 0px solid #DADADA;
+	margin-left: 12px;
+}
+
+.cal tr {
+	width: 250px;
+	height: 125px;
+}
+
+.cal tr td {
+	width: 125px;
+	height: 125px;
+	border: 0px solid #DADADA;
+}
+
+.cal tr td a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #000000;
+	text-align: center;
+	line-height: 120px;
+}
+
+.cal tr td a font {
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+
+/*北京银行*/
+
+#content1 {
+	width: 100%;
+	height: 480px;
+	position: relative;
+}
+
+
+/*北京银行 右部分*/
+
+#content1_content {
+	width: 100%;
+	height: 440px;
+	position: relative;
+	top: 26px;
+}
+
+#content1_content ul li {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #DADADA;
+}
+
+.content1_content_left {
+	width: 54px;
+	height: 100%;
+	float: left;
+}
+
+.content1_content_right {
+	width: 78%;
+	height: 100%;
+	float: right;
+}
+
+.content1_content_left img {
+	margin-top: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.content1_content_right p {
+	position: relative;
+	top: 5px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.content1_content_right p span {
+	color: red;
+}
+
+
+/*信贷网*/
+
+#content2 {
+	width: 100%;
+	height: 480px;
+	position: relative;
+}
+
+.content_left_content {
+	height: 194px;
+	width: 100%;
+	margin-bottom: 1px;
+	position: relative;
+}
+
+.content_left_content_title ul li {
+	float: left;
+	margin-top: 3px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.content_left_content_title ul li:hover {
+	border-top: 1px solid #0D9CE2;
+	border-bottom: 2px solid white;
+}
+
+.content_left_content_title ul li:last-child {
+	width: 139px;
+	float: right;
+	border: 1px solid black;
+}
+
+.content_left_content_title ul li:last-child a {
+	display: block;
+	width: 135px;
+	height: 35px;
+	line-height: 35px;
+	text-align: right;
+	color: black;
+	font-size: 14px;
+}
+
+.content_left_content_title ul li:last-child:hover {
+	border-top: 1px solid #0D9CE2;
+	border-bottom: 2px solid white;
+}
+
+.content_left_content_title ul li a {
+	display: block;
+	width: 110px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: black;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+
+.content_left_content_content {
+	clear: both;
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	top: 50px;
+}
+
+.content_left_content_content_left {
+	height: 100%;
+	width: 140px;
+	float: left;
+}
+
+.content_left_content_content_between {
+	height: 100%;
+	width: 250px;
+	float: left;
+	margin-left: 10px;
+}
+
+.content_left_content_content_between p {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 23px;
+}
+
+.content_left_content_content_between_p1 {
+	font-weight: bold;
+}
+
+.content_left_content_content_between_p2 {
+	color: aqua;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+.content_left_content_content_right {
+	height: 100%;
+	width: 270px;
+	float: right;
+}
+
+.content_left_content_content_right ul {
+	list-style: disc;
+	position: relative;
+	left: 15px;
+}
+
+.content_left_content_content_right ul li a {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	line-height: 23px;
+	color: #000000;
+}
+
+
+/*信贷网 右部分*/
+
+#content_right_imgimg {
+	margin-top: 35px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+
+/*好贷专题*/
+
+#content3 {
+	width: 100%;
+	height: 220px;
+	position: relative;
+}
+
+.content_title {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	top: 20px;
+	border-bottom: 1px solid #D3D3D3;
+	padding-bottom: 5px;
+}
+
+#squ {
+	width: 4px;
+	height: 80%;
+	position: relative;
+	top: 10%;
+	background-color: #0D9CE2;
+	float: left;
+}
+
+#p {
+	float: left;
+	position: relative;
+	top: 10%;
+	margin-left: 10px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+
+.img {
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+#content3_img {
+	width: 100%;
+	height: 125px;
+	position: relative;
+	top: 35px;
+}
+
+#content3_img img {
+	float: left;
+	margin-right: 15px;
+}
+
+#content3_p {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	top: 35px;
+}
+
+#content3_p p {
+	font-size: 12px;
+	float: left;
+	margin-right: 45px;
+}
+
+#content3_p p a {
+	color: orange;
+}
+
+
+/*页脚*/
+
+#footer {
+	width: 100%;
+	height: 400px;
+	background-color: #262626;
+	/*position: relative;*/
+	bottom: 0px;
+	margin-top: 20px;
+}
+
+#footerTop {
+	width: 991px;
+	height: 312px;
+	margin: 0 auto;
+}
+
+#footerTop h3 {
+	font-family: "微软雅黑";
+	font-size: 17px;
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-top: 50px;
+}
+
+#footerTopLeft {
+	width: 236px;
+	height: 158px;
+	float: left;
+}
+
+#footerTopLeft .footerLine {
+	width: 236px;
+	height: 1px;
+	position: relative;
+	top: 10px;
+	background-color: #333333;
+}
+
+#footerTopLeft p {
+	width: 226px;
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #999999;
+	margin-top: 26px;
+}
+
+#footerTopMiddle {
+	width: 350px;
+	height: 158px;
+	float: left;
+	margin-left: 80px;
+}
+
+#footerTopMiddle .footerLine {
+	width: 350px;
+	height: 1px;
+	position: relative;
+	top: 10px;
+	background-color: #333333;
+}
+
+#footerTopMiddle p {
+	width: 338px;
+	height: 158px;
+	margin-top: 26px;
+}
+
+#footerTopMiddle p a {
+	display: block;
+	width: 68px;
+	height: 16px;
+	text-align: left;
+	line-height: 16px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #999999;
+	float: left;
+	margin-right: 12px;
+}
+
+#footerTopRight {
+	width: 242px;
+	height: 180px;
+	float: left;
+	margin-left: 80px;
+}
+
+#footerTopRight .footerLine {
+	width: 242px;
+	height: 1px;
+	position: relative;
+	top: 10px;
+	background-color: #333333;
+}
+
+#footerTopRight #callUs {
+	margin-top: 26px;
+}
+
+#footerTopRight #callUs p {
+	font-family: "微软雅黑";
+	font-size: 11px;
+	color: #999999;
+	margin-top: 6px;
+}
+
+#footerTopRight h4 {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-top: 12px;
+}
+
+#footerTopRight .footerLine {
+	width: 242px;
+	height: 1px;
+	position: relative;
+	top: 10px;
+	background-color: #333333;
+}
+
+#footerTopRight p {
+	margin-top: 26px;
+}
+
+#footerTopRight p img {
+	cursor: pointer;
+}
+
+#footerBottom {
+	width: 760px;
+	height: 72px;
+	margin: 0 auto;
+}
+
+#footerBottom ul {
+	list-style: none;
+	margin-left: 85px;
+}
+
+#footerBottom ul li a {
+	display: block;
+	height: 16px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	line-height: 16px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	color: #666666;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #999999;
+	border-style: none solid none none;
+}
+
+#footerBottom p {
+	clear: both;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-family: "微软雅黑";
+	font-size: 10px;
+	color: #A499B0;
+	float: left;
+	margin-top: 22px;
+}
+
+
+/*返回滚动圆设置*/
+
+#scrollTop {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #FFC0CB;
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+#scrollTop span {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}

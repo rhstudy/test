@@ -1,0 +1,77 @@
+
+.public-header .public-header-bg{width:100%;background-color: #000;}
+.public-header .public-header-info,.public-header .public-header-nav{width: 960px;margin:0 auto;}
+.public-header .public-header-info a{color:#FFF;}
+.public-header-info dt,.public-header-info dd{float: left;height:44px;line-height: 44px;}
+.public-header-info .header-info-weibo{background-image: url(../img/xinlang.jpg);background-repeat: no-repeat;padding-right: 35px;background-position: right;}
+.public-header-info .header-info-hotline{margin-left: 150px;}
+.public-header-info .header-info-login01{margin-left: 50px;font-weight: bold;}
+.public-header-info .header-info-regist{margin-left: 20px;}
+.public-header-info .header-info-regist a{color: #F99D00;}
+.public-header-info .header-info-login02{margin-left: 20px;}
+
+.public-header .public-header-nav{height: 90px;}
+.public-header-nav .header-nav li{float: left;}
+.header-nav .header-logo{margin-top: 10px;}
+.header-nav .nav-province{padding:0 35px;width: 64px;}
+.header-nav .nav-province-select{display: block;margin:20px 0 10px 0;width: 62px;}
+.header-nav .nav-province-span{display: block;width: 64px;color: #000;}
+.header-nav .nav-item{margin:35px 20px 0 0;height: 20px;width: 70px;text-align: center;cursor:pointer;}
+.header-nav .nav-item:hover{border-bottom: 5px solid #00457C;}
+.header-nav .nav-item a{color: #333;}
+
+.public-header .public-header-banner{position: relative;}
+.public-header-banner .header-banner-ul{width: 100%;height: 470px;}
+.public-header-banner .header-banner-ul li{position: absolute;top: 0;left: 0;}
+.public-header-banner .header-banner-ol {position: absolute;bottom: 10px;right: 250px;}
+.public-header-banner .header-banner-ol li a{width: 20px;height: 20px;border-radius: 10px;background-color: gray;margin-left: 10px;}
+.public-header-banner .header-banner-ol li{float: left;}
+.public-header-banner .header-banner-ol li a.hover{background-color: blue;}
+.public-header-banner .header-banner-search{padding:20px 20px 0 25px;width: 280px;height: 380px;background-color: rgba(20,20,50,.4);position: absolute;z-index: 100;left: 210px;top: 35px;color: #fff;behavior:url("PIE.htc");}
+.public-header-banner .header-banner-search .title1{font-size: 16px;font-weight: bold;height: 30px;line-height: 30px;}
+.public-header-banner .header-banner-search .title2{font-size: 12px;font-weight: bold;height: 20px;line-height: 20px;margin-top: 10px;}
+.public-header-banner .header-banner-search select,.box .header .banner .bannerSearch a{height: 40px;width: 280px;}
+.public-header-banner .header-banner-search a{background-color: #0098F1;display: block;color: #FFF;font-size: 18px;text-align: center;line-height: 40px;margin:15px 0 10px 0;font-weight: bold;}
+.public-header-banner .header-banner-search .text{font-weight: bold;height: 20px;line-height: 20px;}
+
+
+.public-footer{height: 269px;border-top: 1px solid #EAEAEA;margin-top:10px;background-color: #F5F5F5;}
+.public-container{width: 960px;margin: 0 auto;}
+.friend-link .friend-link-top,.friend-link .friend-link-bottom{border-bottom: 1px solid #D9D9D9;}
+.friend-link .friend-link-top h4{height: 30px;line-height: 30px;float: left;}
+.friend-link .friend-link-top h4.fr{float: right;}
+
+.friend-link .friend-link-bottom a{padding:0 15px;height: 30px;line-height: 30px;float: left;color: #ccc;}
+.friend-link .friend-link-bottom a:hover{text-decoration:underline;}
+.public-footer .footer-info{margin:20px 0 0 0; color: #999;padding:0 0 0 15px;}
+.public-footer .footer-about {margin: 30px auto 0 auto;text-align: center;}
+.public-footer .footer-about li{display:inline-block;padding:0 3px 0 0;border-right: 1px solid #666;height: 15px;line-height: 15px;}
+.public-footer .footer-about li a{color: #666;}
+.public-footer .footer-about li a:hover{text-decoration: underline;}
+.public-footer .footer-copyright{color: #94979C;text-align: center;margin: 15px 0 0 0;}
+.public-footer .footer-honesty{background-image: url(../img/chengxin.jpg);width: 112px;height: 40px;margin: 15px auto 0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

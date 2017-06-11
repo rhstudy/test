@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fffbf0;
+}
+
+h1{
+  text-align: center;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.box{
+  width: 80%;
+  font-size: 15px;
+  padding: 50px;
+  border: 1px solid #4a4266;
+  margin-left: 8%;
+  margin-top: 50px;
+  padding-left: 36px;
+}
+
+a {
+  color: #4c8dae;
+  text-decoration: none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>产品管理</title>
+		<link rel="stylesheet" type="text/css" href="../css/basics.css" />
+		<link rel="stylesheet" type="text/css" href="../css/businessOthers.css" />
+	</head>
+
+	<body>
+		<div class="container" id="container">
+			<header class="head" id="head" title="head">
+				<div class="return" id="returnHistory">
+					<a href="index1.html">
+						<img src="../img/returnHistory.png" />
+					</a>
+				</div>
+				<div class="contact" id="contact">
+					<a href="javascript:;">
+						<img src="../img/contact.png" />
+					</a>
+				</div>
+			</header>
+			<div class="content" id="content">
+				<div>
+					<div class="p1Set" id="p1Set">
+						<div class="setTeaGarden" id="setTeaGarden1">
+							<div class="setTeaGardenPage" id="setTeaGardenPage1">
+								<div id="setTeaGardenPageTable1" class="setTeaGardenPageTable setTeaGardenPageTable1">
+									<br />
+									<p>
+										<label>茶叶名称：</label>&nbsp;
+										<input type="text" class="setTeaGardenPageTableInput" id="teaName" />
+										<br/>
+									</p>
+									<p>
+										<label>茶叶产地：</label>&nbsp;
+										<input type="text" class="setTeaGardenPageTableInput" id="teaOrigin" />
+										<br/>
+									</p>
+									<p class="setTeaTableTextareaP">
+										<label>茶叶介绍：</label>&nbsp;<br />
+										<textarea class="setTeaTableTextarea" id="teaIntroduction"></textarea>
+										<br/>
+									</p>
+									<!--<p class="InputPictureP">
+										<input class="InputPicture" type="file" accept="image/*" value="上传图片">
+									</p>-->
+								</div>
+								<input class="teaGargenButton" type="submit" value="增加" id="teaGargenButton1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-2.1.1.min.js" ></script>
+	<script type="text/javascript" src="../js/businessBasics.js"></script>
+	<script type="text/javascript" src="../js/teaGardenRecord.js"></script>
+
+</html>

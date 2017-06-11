@@ -1,0 +1,18 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"fonts/hyi4gjm.ttf",
+			"js/jquery-2.1.1.min.js",
+			"img/cd-icon-username.svg",
+			"img/cd-icon-password.svg",
+			"img/index1.jpg",
+			"js/index.js",
+			"php/login.php",
+			"img/cd-icon-close.svg"
+		],
+		"refer": [
+			"php/login.php"
+		]
+	}
+}

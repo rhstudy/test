@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>古树认养</title>
+		<link rel="stylesheet" type="text/css" href="../css/basics.css" />
+		<link rel="stylesheet" type="text/css" href="../css/businessOthers.css" />
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			@keyframes auto {
+				from {
+					-webkit-transform: rotate(0deg);
+				}
+				to {
+					-webkit-transform: rotate(360deg);
+				}
+			}
+			
+			#cvs {
+				-webkit-animation: auto 2s infinite linear;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container" id="container">
+			<header class="head" id="head" title="head">
+				<div class="return" id="return">
+					<a href="index1.html">
+						<img src="../img/home.png" />
+					</a>
+				</div>
+				<p class="title">古树认养</p>
+				<div class="contact" id="contact">
+					<a href="javascript:;">
+						<img src="../img/contact.png" />
+					</a>
+				</div>
+			</header>
+			<div class="content contentTree" id="content">
+				<div class="flashCanvas">
+					<canvas id="cvs" width="150" height="150"></canvas>
+				</div>
+				<div class="titeleCanvas">
+					<p class="titeleCanvas1">以平台之力<br/>让善意落地</p>
+					<p class="titeleCanvas2">云南普洱古茶树保护认养计划</p>
+				</div>
+				<div class="picTree">
+					<img src="../img/teaTree.png" class="picTreeImg" />
+				</div>
+			</div>
+			<footer class="footer" id="footer" title="footer">
+				<a class="teaFooter" id="teaFooter1" href="globe.html">
+					<label class="teaFooterPic teaFooterPic1"></label>
+					<label class="teaFooterFont">圈子</label>
+				</a>
+				<a class="teaFooter" id="teaFooter2" href="index1.html">
+					<label class="teaFooterPic teaFooterPic2"></label>
+					<label class="teaFooterFont">我的</label>
+				</a>
+				<a class="teaFooter" id="teaFooter3" href="flag.html">
+					<label class="teaFooterPic teaFooterPic3"></label>
+					<label class="teaFooterFont">古树认养</label>
+				</a>
+			</footer>
+		</div>
+	</body>
+	<script>
+		var cvs = document.getElementById("cvs");
+		var ctx = cvs.getContext("2d");
+
+		function arcFn(a, b, c, d, e, color) {
+			ctx.beginPath();
+			ctx.fillStyle = color;
+			ctx.arc(a, b, c, d * Math.PI, e * Math.PI);
+			ctx.fill();
+			ctx.closePath();
+		}
+		arcFn(75.5, 75.5, 51, 0, 2, "#dadada");
+		arcFn(75.5, 75.5, 50, 0.5, 1.5, "#000000");
+		arcFn(75.5, 75.5, 50, 1.5, 2.5, "#ffffff");
+		arcFn(75.5, 50, 25, 0, 2, "#ffffff");
+		arcFn(75.5, 100, 25, 0, 2, "#000000");
+		arcFn(75.5, 50, 6.25, 0, 2, "#000000");
+		arcFn(75.5, 100, 6.25, 0, 2, "#ffffff");
+	</script>
+	<script type="text/javascript" src="../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-2.1.1.min.js" ></script>
+	<script type="text/javascript" src="../js/businessBasics.js"></script>
+	<script type="text/javascript" src="../js/businessSet.js"></script>
+
+</html>

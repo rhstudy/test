@@ -1,0 +1,283 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fffbf0;
+}
+
+a {
+  font-family: "微软雅黑";
+	font-size: 10px;
+	color: black;
+}
+
+.triangle {
+  border-width: 20px;
+  width: 0;
+  height: 0;
+  float: right;
+}
+
+.triangle1 {
+  border-color: transparent #FFABE5 transparent transparent;
+  border-style: dashed solid dashed dashed;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.triangle2 {
+  border-color: transparent transparent transparent #C7F5FF;
+  border-style: dashed dashed dashed solid;
+  margin-right: -40px;
+  margin-top: 20px;
+}
+.triangle3 {
+  border-color: transparent transparent #D89FFF transparent;
+  border-style: dashed dashed solid dashed;
+  margin-right: -40px;
+  margin-top: 20px;
+}
+.triangle4 {
+  border-color: #FFF2BE transparent transparent transparent;
+  border-style: solid dashed dashed dashed;
+  margin-right: -40px;
+  margin-top: 20px;
+}
+
+#div1 {
+	width: 360px;
+	height: 70px;
+	margin: 0 auto;
+	border: 1px solid cadetblue;
+	margin-top: 16px;
+}
+
+#div1_p {
+	display: none;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+
+#div2 {
+	width: 500px;
+	height: 220px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#div2_1,#div2_2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 1px solid cadetblue;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.box {
+	background-color: indianred;
+}
+
+#div3 {
+	width: 360px;
+	height: 30px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#div3 input {
+	margin-top: 5px;
+}
+
+#div4 {
+	width: 320px;
+	height: 200px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#div4_1 {
+	width: 120px;
+	height: 120px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#div4 input {
+	margin-left: 135px;
+	margin-top: 10px;
+}
+
+#div5 {
+	width: 380px;
+	height: 200px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#div5 input {
+	margin-left: 153px;
+	margin-top: 10px;
+}
+
+#div5_1 {
+	width: 120px;
+	height: 120px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 16px;
+	display: none;
+	background-color: lightseagreen;
+}
+
+#div6 {
+	width: 260px;
+	height: 80px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#div7 {
+  width: 220px;
+	height: 220px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 16px;
+	text-align: center;
+}
+
+#div7_1 {
+	width: 160px;
+	height: 160px;
+	border: 0px solid cadetblue;
+	margin: 0 auto;
+	background-color: #5F9EA0;
+}
+
+#div8 {
+	width: 220px;
+	height: 220px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 26px;
+	text-align: center;
+}
+
+#div8_1 {
+	width: 160px;
+	height: 160px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+}
+
+#div9 {
+	width: 330px;
+	height: 330px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 26px;
+	text-align: center;
+}
+
+#div9_ {
+	width: 300px;
+	height: 300px;
+	border: 0px solid cadetblue;
+	margin: 0 auto;
+}
+
+#div9_ div {
+	width: 260px;
+	height: 260px;
+	border: 1px solid cadetblue;
+	display: none;
+	margin: 0 auto;
+}
+
+.active {
+	background-color: #66CDAA;
+	color: firebrick;
+	font-weight: bold;
+}
+
+#div10 {
+	width: 360px;
+	height: 360px;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	margin-top: 26px;
+}
+
+#div10 ul {
+	width: 280px;
+	height: 280px;
+	border: 0px solid cadetblue;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#div10 ul li {
+	display: block;
+	width: 85px;
+	height: 60px;
+	border: 1px solid cadetblue;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+#div10 ul li h2 {
+	width: 50px;
+	height: 20px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-left: 18px;
+}
+
+#div10 ul li p {
+	width: 30px;
+	height: 20px;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	margin-left: 27px;
+	margin-top: -10px;
+}
+
+#div10 ul .activeTab {
+	background-color: #66CDAA;
+	color: #CD5C5C;
+}
+
+#text {
+	width: 263px;
+	height: 60px;
+	border: 1px solid cadetblue;
+	float: left;
+	margin-left: 52px;
+	margin-top: -25px;
+}
+
+#text h3 {
+	width: 60px;
+	height: 15px;
+	font-family: "微软雅黑";
+	font-size: 17px;
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+#text p {
+	width: 60px;
+	height: 15px;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	margin-top: -6px;
+	margin-left: 6px;
+}

@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFD2;
+	background: url(../img/index2.png) no-repeat;
+	background-size: 105% 100%;
+}
+
+.nav {
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	-webkit-box-orient: vertical;
+}
+
+
+/* 商家管理块 */
+
+.nav li {
+	width: 85%;
+	height: 100px;
+	margin: 20px auto;
+	border-radius: 12px;
+	position: relative;
+}
+
+.nav li:nth-child(1) {
+	background-color: #A8D8EA;
+}
+
+.nav li:nth-child(2) {
+	background-color: #AA96DA;
+}
+
+.nav li:nth-child(3) {
+	background-color: #FCBAD3;
+}
+
+.nav li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.nav li a p {
+	width: 100%;
+	height: 100px;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 100px;
+	color: #FFFFFF;
+}
+
+.nav li a img {
+	position: absolute;
+	height: 76%;
+	top: 10%;
+}
+
+.nav li a img {
+	left: 12%;
+}
+
+
+/* 用户应用块 */
+
+.nav1 li {
+	height: 86px;
+	margin: 12px auto;
+}
+
+.nav1 li a p {
+	height: 86px;
+	font-size: 1.4rem;
+	line-height: 86px;
+}
+
+.nav1 li:nth-child(1) {
+	background-color: #F38181;
+}
+
+.nav1 li:nth-child(2) {
+	background-color: #FCE38A;
+}
+
+.nav1 li:nth-child(3) {
+	background-color: #FCBAD3;
+}
+
+.nav1 li:nth-child(4) {
+	background-color: #95E1D3;
+}
+
+.nav1 li:nth-child(5) {
+	background-color: #AA96DA;
+}
+
+#nav1 li a img {
+	height: 72%;
+	left: 6%;
+	top: 14%;
+}
+
+
+/* 平台管理块 */
+
+.nav2 li {
+	height: 100px;
+	margin: 15px auto;
+}
+
+.nav2 li a p {
+	height: 110px;
+	font-size: 1.4rem;
+	line-height: 100px;
+}
+
+.nav2 li:nth-child(1) {
+	background-color: #D6C8FF;
+}
+
+.nav2 li:nth-child(2) {
+	background-color: #C79ECF;
+}
+
+.nav2 li:nth-child(3) {
+	background-color: #7E6BC4;
+}
+
+#nav2 li a img {
+	left: 5%;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="css/jsSmallChange.css" />
+</head>
+<body>
+
+  <!-- alert的使用，弹出框 -->
+  <a href="javascript:alert('aaa');">点击链接</a>
+
+  <!-- 画四个三角形，组成一个正方形 -->
+  <div class="triangle triangle1"></div>
+  <div class="triangle triangle2"></div>
+  <div class="triangle triangle3"></div>
+  <div class="triangle triangle4"></div>
+
+  <!-- 鼠标的移入移出事件 -->
+  <div id="div1">
+    <input type="checkbox" onmouseover="show()" onmouseout="over()" />记住密码
+    <p id="div1_p">不是自己的电脑就不要记住密码了~\(≧▽≦)/~</p>
+  </div>
+
+  <!-- 点击不同div，出现不同颜色 -->
+  <div id="div2">
+    <div id="div2_1" onclick="show1()"></div>
+    <div id="div2_2" onclick="show2()"></div>
+  </div>
+
+  <!-- 点击按钮，改变text的value值 -->
+  <div id="div3">
+    <input type="text" value="aa" id="div3_1" title="aa" />
+    <input type="button" value="Click" onclick="show3()" />
+  </div>
+
+  <!-- 点击按钮，改变宽高及颜色 -->
+  <div id="div4">
+    <div id="div4_1"></div>
+    <input type="button" value="Click" onclick="change()" />
+  </div>
+
+  <!-- div的显示隐藏 -->
+  <div id="div5">
+    <input type="button" value="显示隐藏" onclick="none()" />
+    <div id="div5_1"></div>
+  </div>
+
+  <!-- 全选不选与反选 -->
+  <div id="div6">
+    <br />
+    <input type="button" value="全选" id="bt1" />
+    <input type="button" value="不选" id="bt2" />
+    <input type="button" value="反选" id="bt3" />
+    <div id="check">
+      <br />
+      <input type="checkbox" />
+      <input type="checkbox" />
+      <input type="checkbox" />
+      <input type="checkbox" />
+      <input type="checkbox" />
+      <input type="checkbox" />
+      <input type="checkbox" />
+      <input type="checkbox" />
+    </div>
+  </div>
+
+  <!-- 选项卡样式改变颜色，传参形式 -->
+  <div id="div7">
+   <br />
+    <input type="button" value="01" onclick="showcolor('orange')" />
+    <input type="button" value="02" onclick="showcolor('darkseagreen')" />
+    <input type="button" value="03" onclick="showcolor('turquoise')" />
+    <div id="div7_1"></div>
+  </div>
+
+  <!-- 选项卡样式改变宽高及颜色，传参形式 -->
+  <div id="div8">
+    <br />
+    <input type="button" value="width" onclick="changeShow('width','180px')" />
+    <input type="button" value="height" onclick="changeShow('height','170px')" />
+    <input type="button" value="color" onclick="changeShow('background-color','#dadada')" />
+    <div id="div8_1"></div>
+  </div>
+
+  <!-- 选项卡 -->
+  <div id="div9">
+    <br />
+    <div id="div9_">
+      <input type="button" value="show1" />
+      <input type="button" value="show2" />
+      <input type="button" value="show3" />
+      <input type="button" value="show4" />
+      <div>111111</div>
+      <div>222222</div>
+      <div>333333</div>
+      <div>444444</div>
+    </div>
+  </div>
+
+  <!-- 日历形式选项卡 -->
+  <div id="div10">
+    <div id="tab" class="calender">
+     <ul>
+       <li class="activeTab">
+         <h2>1</h2>
+         <p>JUN</p>
+       </li>
+       <li>
+         <h2>2</h2>
+         <p>FEB</p>
+       </li>
+       <li>
+         <h2>3</h2>
+         <p>MAR</p>
+       </li>
+       <li>
+         <h2>4</h2>
+         <p>APR</p>
+       </li>
+       <li>
+         <h2>5</h2>
+         <p>MAY</p>
+       </li>
+       <li>
+         <h2>6</h2>
+         <p>JUN</p>
+       </li>
+       <li>
+         <h2>7</h2>
+         <p>JUL</p>
+       </li>
+       <li>
+         <h2>8</h2>
+         <p>AUG</p>
+       </li>
+       <li>
+         <h2>9</h2>
+         <p>SEP</p>
+       </li>
+       <li>
+         <h2>10</h2>
+         <p>OCT</p>
+       </li>
+       <li>
+         <h2>11</h2>
+         <p>NUM</p>
+       </li>
+       <li>
+         <h2>12</h2>
+         <p>DEC</p>
+       </li>
+      </ul>
+      <div id="text">
+        <h3>一月份</h2>
+          <p>放假啦~~</p>
+      </div>
+     </div>
+   </div>
+   <script type="text/javascript" src="js/jsSmallChange.js"></script>
+ </body>
+</html>

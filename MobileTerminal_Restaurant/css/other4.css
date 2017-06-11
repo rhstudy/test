@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #FFDFA1;
+}
+
+@-webkit-keyframes run {
+	0% {
+		-webkit-transform: translate3d(0, -52px, 0);
+	}
+	100% {
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+}
+
+.head {
+	width: 100%;
+	height: 52px;
+	background-color: #904b00;
+	-webkit-animation: run 0.6s linear 1;
+}
+
+.container {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.content {
+	-webkit-box-flex: 1;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+
+.return {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 13px;
+}
+
+.contact {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 6px;
+	margin-right: 13px;
+}
+
+.return a,
+.contact a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #EB7400;
+	border: 0px solid #DADADA;
+	border-radius: 50%;
+}
+
+.return img,
+.contact img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+.foot {
+	width: 100%;
+	height: 120px;
+	margin-top: 60px;
+}
+
+#scrollTop {
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+	background-color: #EB7400;
+	border-radius: 50%;
+}
+
+#scrollTop a img {
+	width: 100%;
+	height: 100%;
+}
+
+.p1Set {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.pSetTitle {
+	font-family: cursive;
+	font-size: 28px;
+	font-weight: normal;
+	color: #904b00;
+	margin-top: 15px;
+}
+
+.p1Set ul {
+	list-style: none;
+	margin-top: 12px;
+	background-color: #eb7400;
+}
+
+.p4SetLi {
+	width: 90%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+}
+
+.p4SetLi a {
+	display: block;
+	font-family: cursive;
+	font-size: 17px;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+
+.setLogo {
+	width: 22px;
+	height: 22px;
+	position: relative;
+	margin-top: -25px;
+	margin-left: 90%;
+	background: url(../img/toggle_blog.png) no-repeat 0px -22px;
+}
+
+.p4SetLi ol {
+	list-style: none;
+	list-style-image: url("../img/bullet_checked.png");
+}
+
+.p4SetLi ol li {
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+
+.p4SetLi ol li a {
+	display: block;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.p4SetLi ol {
+	display: none;
+}
+
+.p1Set dl {
+	list-style: none;
+}
+
+.p1Set dl dt {
+	width: 97%;
+	height: 93px;
+	padding-left: 5px;
+	padding-top: 6px;
+	margin-top: 12px;
+	border: 1px solid #FFFFFF;
+}
+
+.p1Set dl dt .imgLeft {
+	width: 28%;
+	float: left;
+	margin-left: 5px;
+	margin-top: 4px;
+}
+
+.p1Set dl dt .imgLeft1 {
+	border-radius: 50%;
+}
+
+.p1Set dl dt .conRight {
+	width: 60%;
+	float: left;
+	margin-left: 20px;
+}
+
+.p1Set dl dt h5 {
+	font-family: cursive;
+	font-size: 16px;
+	color: #904B00;
+	font-weight: normal;
+}
+
+.p1Set dl dt a {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #B67E38;
+	text-decoration: none;
+}
+
+.p1Set dl dt a font {
+	color: #eb7400;
+}
+
+.p1Set dl dt a span {
+	font-weight: bold;
+}
+
+.pSetTitle1 {
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: normal;
+	color: #904b00;
+	margin-top: 18px;
+}
+
+.large {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.large img {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+}
+
+.foot {
+	width: 100%;
+	height: 120px;
+	margin-top: 60px;
+}
+
+#scrollTop {
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+	background-color: #EB7400;
+	border-radius: 50%;
+}
+
+#scrollTop a img {
+	width: 100%;
+	height: 100%;
+}

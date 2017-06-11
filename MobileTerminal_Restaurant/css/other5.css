@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #FFDFA1;
+}
+
+@-webkit-keyframes run {
+	0% {
+		-webkit-transform: translate3d(0, -52px, 0);
+	}
+	100% {
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+}
+
+.head {
+	width: 100%;
+	height: 52px;
+	background-color: #904b00;
+	-webkit-animation: run 0.6s linear 1;
+}
+
+.container {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.content {
+	-webkit-box-flex: 1;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+
+.return {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 13px;
+}
+
+.contact {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 6px;
+	margin-right: 13px;
+}
+
+.return a,
+.contact a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #EB7400;
+	border: 0px solid #DADADA;
+	border-radius: 50%;
+}
+
+.return img,
+.contact img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+.foot {
+	width: 100%;
+	height: 120px;
+	margin-top: 60px;
+}
+
+#scrollTop {
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+	background-color: #EB7400;
+	border-radius: 50%;
+}
+
+#scrollTop a img {
+	width: 100%;
+	height: 100%;
+}
+
+.p1Set,
+.p2Set,
+.p3Set,
+.p4Set {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.pSetTitle {
+	font-family: cursive;
+	font-size: 28px;
+	font-weight: normal;
+	color: #904b00;
+	margin-top: 15px;
+}
+
+.containerPhoto,
+.containerPhoto1,
+.containerPhoto2,
+.containerPhoto3 {
+	width: 98%;
+	margin-top: 20px;
+}
+
+.containerPhoto tr td {
+	width: 25%;
+	padding: 2%;
+	border: 1px solid #FFFFFF;
+}
+
+.containerPhoto tr td img {
+	width: 100%;
+	height: 100%;
+}
+
+.containerPhoto1 tr td {
+	width: 45%;
+	padding: 2%;
+	border: 1px solid #FFFFFF;
+}
+
+.containerPhoto1 tr td img {
+	width: 100%;
+	height: 100%;
+}
+
+.containerPhoto2 tr td {
+	width: 90%;
+	padding: 2%;
+	border: 1px solid #FFFFFF;
+}
+
+.containerPhoto2 tr td img {
+	width: 100%;
+	height: 100%;
+}
+
+.containerPhoto3 tr td {
+	width: 25%;
+	padding: 2%;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+.containerPhoto3 tr td img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}

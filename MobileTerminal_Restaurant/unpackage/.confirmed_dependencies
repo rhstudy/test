@@ -1,0 +1,136 @@
+{
+  "html/aboutUs.html": {
+    "href": "html/aboutUs.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/others.js",
+      "css/other1.css",
+      "img/home.png",
+      "img/contact.png",
+      "img/page_photo.jpg",
+      "img/top.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "html/services.html": {
+    "href": "html/services.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/others.js",
+      "css/other2.css",
+      "img/home.png",
+      "img/contact.png",
+      "img/top.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "html/blog.html": {
+    "href": "html/blog.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/jquery-1.10.1.min.js",
+      "js/others.js",
+      "css/other3.css",
+      "img/home.png",
+      "img/contact.png",
+      "img/top.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "html/portfolio.html": {
+    "href": "html/portfolio.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/jquery-1.10.1.min.js",
+      "js/others.js",
+      "css/other4.css",
+      "img/home.png",
+      "img/contact.png",
+      "img/portfolio_thumb.jpg",
+      "img/portfolio_thumb2.jpg",
+      "img/portfolio_thumb3.jpg",
+      "img/top.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "html/gallery.html": {
+    "href": "html/gallery.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/jquery-1.10.1.min.js",
+      "js/others.js",
+      "css/other5.css",
+      "img/home.png",
+      "img/contact.png",
+      "img/top.png",
+      "img/photo1.jpg",
+      "img/photo2.jpg",
+      "img/photo3.jpg",
+      "img/photo4.jpg",
+      "img/photo5.jpg",
+      "img/photo6.jpg",
+      "img/photo7.jpg",
+      "img/photo8.jpg",
+      "img/photo9.jpg",
+      "img/photo10.jpg",
+      "img/photo11.jpg"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "html/videos.html": {
+    "href": "html/videos.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/jquery-1.10.1.min.js",
+      "js/others.js",
+      "css/other6.css",
+      "img/home.png",
+      "img/contact.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/index.js",
+      "css/index.css",
+      "img/about.png",
+      "img/tools.png",
+      "img/blog.png",
+      "img/docs.png",
+      "img/photos.png",
+      "img/videos.png",
+      "img/clients.png",
+      "img/twitter.png",
+      "img/contact.png"
+    ],
+    "refer": [
+      "html/aboutUs.html",
+      "html/services.html",
+      "html/blog.html",
+      "html/portfolio.html",
+      "html/gallery.html",
+      "html/videos.html"
+    ],
+    "priority": 0
+  }
+}

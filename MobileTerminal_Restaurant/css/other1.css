@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #FFDFA1;
+}
+
+
+/* 点入About Us页面，顶部标签动态载入 */
+
+@-webkit-keyframes run {
+	0% {
+		-webkit-transform: translate3d(0, -52px, 0);
+	}
+	100% {
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+}
+
+.head {
+	width: 100%;
+	height: 52px;
+	background-color: #904b00;
+	-webkit-animation: run 0.6s linear 1;
+}
+
+
+/* 弹性盒子 */
+
+.container {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.content {
+	-webkit-box-flex: 1;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+
+.return {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 13px;
+}
+
+.contact {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 6px;
+	margin-right: 13px;
+}
+
+.return a,
+.contact a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #EB7400;
+	border: 0px solid #DADADA;
+	border-radius: 50%;
+}
+
+.return img,
+.contact img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+
+/* About Us页面设置 */
+
+.imgSet , .p1Set , .p2Set , .p3Set , .p4Set , .p5Set , .p6Set{
+	width: 90%;
+	margin-left: 5%;
+}
+.setTitle{
+	font-family: cursive;
+	font-size: 26px;
+	font-weight: normal;
+	color: #904b00;
+	margin-top: 15px;
+}
+.imgSet img{
+	width: 95%;
+	height: 183px;
+	border: 6px solid #FFFFFF;
+	border-radius: 3px;
+	margin-top: 12px;
+}
+.imgSet p{
+	width: 100%;
+	height: 42px;
+	background-color: #85af5d;
+	font-family: cursive;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	border-bottom: 3px solid #759a51;
+}
+.pSetTitle{
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: normal;
+	color: #904b00;
+	margin-top: 15px;
+}
+.p1Set p{
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #904b00;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-top: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.p2Set ul{
+	list-style: none;
+}
+.p2Set ul li{
+	width: 90%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	border-left: 1px solid #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #904b00;
+	margin-top: 10px;
+}
+.p3Set ul{
+	list-style: none;
+	list-style-image: url("../img/bullet_checked.png");
+}
+.p3Set ul li{
+	width: 86%;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+.p3Set ul li a{
+	display: block;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #eb7400;
+	text-decoration: none;
+}
+.p4Set ul{
+	list-style: none;
+	margin-top: 12px;
+}
+.p4SetLi{
+	width: 90%;
+	border: 1px solid #FFFFFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+}
+.p4SetLi a{
+	font-family: cursive;
+	font-size: 17px;
+	color: #6C6A66;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+}
+.p4SetLi ol p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #AE722C;
+	margin-top: 10px;
+}
+.p4SetLi ol p font{
+	color: #EB7501;
+}
+.p4SetLi ol{
+	list-style: none;
+	list-style-image: url("../img/bullet_checked.png");
+}
+.p4SetLi ol li{
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+.p4SetLi ol li a{
+	display: block;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #AE722C;
+}
+.p4SetLi ol{
+	display: none;
+}
+.setTitle font{
+	color: #eb7400;
+}
+#p5SetTabs{
+	width: 100%;
+	border: 0px solid #dadada;
+}
+#p5SetTabs ul , #p5SetTabs ol{
+	list-style: none;
+}
+#p5SetTabs ul li{
+	width: 31%;
+	height: 35px;
+	border: 1px solid #FFFFFF;
+	margin-left: 1%;
+	float: left;
+	border-style: solid solid none solid;
+}
+#p5SetTabs ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+#p5SetTabs .contenTabs{
+	width: 96%;
+	border: 1px solid #FFFFFF;
+	clear: both;
+	margin-left: 1%;
+	padding-top: 13px;
+	padding-bottom: 20px;
+	display: none;
+}
+#p5SetTabs .first{
+	display: block;
+}
+#p5SetTabs .contenTabs li h6{
+	font-family: cursive;
+	font-size: 15px;
+	color: #904b00;
+	margin-left: 13px;
+}
+#p5SetTabs .contenTabs li p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #965309;
+	margin-top: 10px;
+	margin-left: 14px;
+}
+#p5SetTabs .contenTabs li dl{
+	list-style: none;
+}
+#p5SetTabs .contenTabs li dl dd{
+	width: 80%;
+	height: 26px;
+	border-left: 2px solid #FFFFFF;
+	margin-top: 15px;
+	margin-left: 23px;
+	padding-left: 12px;
+}
+#p5SetTabs .contenTabs li dl dd a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 26px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #AB6F28;
+	text-decoration: none;
+}
+#p5SetTabs .contenTabs li .quoteP{
+	width: 86%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #AB6F28;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+#p5SetTabs ul li .tabActive{
+	color: #ED7F10;
+}
+.buttonSet{
+	width: 96%;
+	height: 190px;
+	border: 0px solid #FFFFFF;
+	margin-top: 12px;
+}
+.buttonRow{
+	width: 100%;
+	height: 42px;
+	margin-bottom: 12px;
+}
+.buttonRow a{
+	display: block;
+	font-family: cursive;
+	font-size: 17px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 42px;
+	text-decoration: none;
+}
+.buttonTwo{
+	width: 48%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+}
+.buttonOne{
+	width: 98%;
+	height: 42px;
+	margin-left: 2%;
+}
+.button1{
+	background-color: #85AF5D;
+	border-bottom: 3px solid #759A51;
+}
+.button2{
+	background-color: #29AAE3;
+	border-bottom: 3px solid #198BBD;
+}
+.button3{
+	background-color: #C53238;
+	border-bottom: 3px solid #8E262C;
+}
+.button4{
+	background-color: #F17225;
+	border-bottom: 3px solid #C55512;
+}
+.button5{
+	background-color: #272625;
+	border-bottom: 3px solid #000000;
+}
+.button6{
+	background-color: #6E6E6E;
+	border-bottom: 3px solid #535150;
+}
+.button7{
+	background-color: #06A78B;
+	border-bottom: 3px solid #058770;
+}
+.foot{
+	width: 100%;
+	height: 120px;
+	margin-top: 60px;
+}
+#scrollTop{
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+	background-color: #EB7400;
+	border-radius: 50%;
+}
+#scrollTop a img{
+	width: 100%;
+	height: 100%;
+}
